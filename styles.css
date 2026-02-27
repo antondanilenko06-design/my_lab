@@ -19,6 +19,7 @@ h1
 
 .table-container
 {
+	 border-collapse: collapse;
 	 display: flex;
     justify-content: center; 
     width: 100%;
@@ -35,4 +36,5 @@ th, td {
 th {
     background-color: gray;               
     font-weight: bold;
+
 }
