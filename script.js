@@ -5,3 +5,5 @@ let num_cat2 = parseFloat(cat2);
 let result =Math.sqrt( num_cat1*num_cat1+num_cat2*num_cat2);
 
 alert("Гипотенуза " + result);
+
+*/
