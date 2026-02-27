@@ -19,22 +19,31 @@ h1
 
 .table-container
 {
-	 border-collapse: collapse;
 	 display: flex;
     justify-content: center; 
     width: 100%;
 }
+
+
+.table-container table {
+    border-collapse: collapse;
+    width: auto; 
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 8px; 
+}
+
+th {
+    background-color: gray;               
+    font-weight: bold;
+}
+
 h2
 {
 	text-align: center;
 	color: blue;
 	font-style: italic;
 }
-th, td {
-    border: 2px solid black;        
-}
-th {
-    background-color: gray;               
-    font-weight: bold;
 
-}
